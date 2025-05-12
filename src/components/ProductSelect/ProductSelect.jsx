@@ -173,7 +173,7 @@ export default function ProductSelect(props) {
             />
           </div>
           <div className="color">
-            <p>COLOR</p>
+            <p>COLORS</p>
             <Checkbox.Group
               options={data.availableColors}
               onChange={onChangeColor}
