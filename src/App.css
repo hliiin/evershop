@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  list-style: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* styles.css */
+html {
+  font-size: 16px; /* 默认字体大小 */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 8px; /* 移动端字体大小 */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* 基本布局 */
+.container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap; /* 自动换行 */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* 当屏幕宽度小于 768px 时，改变排列方式 */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* 垂直排列 */
   }
 }

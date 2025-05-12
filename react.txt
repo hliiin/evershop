@@ -1,0 +1,33 @@
+npm install react-router-dom   安装路由
+npm i axios   安装axios
+npm i sass  安装sass
+
+安装redux
+npm install redux react-redux
+npm install @reduxjs/toolkit
+数据持久化处理
+npm i redux-persist --save
+
+项目创建:cmd 打开命令窗口后  npx create-react-app demo名字   
+项目运行：npm run start
+
+
+问题1：创建项目出现
+`npm install --no-audit --save @testing-library/jest-dom@^5.14.1 @testing-library/react@^13.0.0 @testing-library/user-event@^13.2.1 web-vitals@^2.1.0` failed
+解决方法：npm uninstall react react-dom
+npm install react@18 react-dom@18
+
+问题2：Module not found: Error: Can't resolve 'web-vitals' in 'D:\10.17class\demo\node-project\src'
+解决：npm install --save web-vitals
+
+
+组件库：根据情况
+npm install @mui/material @emotion/react @emotion/styled  安装组件库
+npm install @mui/icons-material  安装组件库的图标
+import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
+import ThreeDRotation from '@mui/icons-material/ThreeDRotation';
+npm install @fontsource/roboto  安装Roboto 字体
+
+antd组件库  npm install antd --save
+图标组件包 npm install @ant-design/icons --save
+ 

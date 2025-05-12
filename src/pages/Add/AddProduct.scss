@@ -1,0 +1,35 @@
+.form {
+  // background-color: aqua;
+  width: 1300px;
+  margin: auto;
+}
+.ant-form {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.ant-form-item-required {
+  width: 150px;
+  text-align: right;
+  // background-color: bisque;
+}
+.ant-input,
+.ant-row,
+.ant-form-iteml {
+  width: 400px;
+}
+
+.ant-btn {
+  width: 120px;
+  height: 50px;
+  background-color: #3a3a3a;
+  border-radius: 0;
+  span {
+    color: #ffffff;
+    font-size: 18px;
+  }
+  &:hover {
+    background-color: #006e52 !important;
+    border: none;
+  }
+}
